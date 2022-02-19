@@ -1,0 +1,2 @@
+# squidex
+Squidex docker-compose
