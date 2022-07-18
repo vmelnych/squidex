@@ -1,3 +1,31 @@
+## docker-compose stack name:
+COMPOSE_PROJECT_NAME=squidex
+
+# Docker
+# ------
+
+## container names
+MONGO_CONTAINER=squidex_db
+SQUIDEX_CONTAINER=squidex_app
+
+## External backup folder
+EXT_BACKUP=./backup
+
+## Internal backup folder
+INT_BACKUP=/data/backup
+
+# MongoDB
+# -------
+
+## Image versions
+MONGO_IMAGE=mongo:5.0
+SQUIDEX_IMAGE=squidex/squidex:latest
+
+
+
+
+# Squidex
+
 SQUIDEX_PROTOCOL=http
 SQUIDEX_FORCE_HTTPS=false
 
